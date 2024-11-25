@@ -44,7 +44,8 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
 
 
 
-$contenu = "Prénom : $prenom\nÂge : $age\nEmail : $email\n\n";
+$contenu = $prenom . ',' . $age . ',' . $email . "\n";
+
 
 
 $nomFichier = 'Infos_Utilisateurs.txt';
