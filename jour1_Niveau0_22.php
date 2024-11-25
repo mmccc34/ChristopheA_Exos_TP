@@ -22,7 +22,7 @@ if (isset($_POST['prenom']) && !empty($_POST['prenom'])) {
 
     <label for="prenom">Entrez votre prénom</label>
     <input type="text"  id="prenom" name="prenom">
-    <input type="submit" value="Envoyez">
+    <input type="submit" name="envoyez" value="Envoyez">
     </form>
 </body>
 </html>
