@@ -1,0 +1,16 @@
+{
+    "name": "arnaud/poo",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Arnaud\\Poo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mmccc34",
+            "email": "mmccc34@icloud.com"
+        }
+    ],
+    "require": {}
+}
